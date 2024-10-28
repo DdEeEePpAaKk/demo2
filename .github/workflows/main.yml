@@ -1,0 +1,8 @@
+name: workflowDemo
+on: push
+jobs: 
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: display hi
+        run: echo "hi"
